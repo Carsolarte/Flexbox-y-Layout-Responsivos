@@ -1,0 +1,18 @@
+.cabecera__container{
+    display: flex;/*coloca los elementos uno al lado del otro*/
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;/*se quede fijo cuando se hace scroll*/
+   top:0; /*En que eje va a estar fijo*/
+}
+.cabecera__buscar__item{
+    display: none;/*oculta la barra de busqueda*/
+
+}
+@media(min-width:834px){
+    .cabecera__buscar__item{
+        display: block;/*oculta la barra de busqueda*/
+    
+    }
+
+}
