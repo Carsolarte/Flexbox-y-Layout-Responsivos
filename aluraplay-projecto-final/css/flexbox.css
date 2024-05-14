@@ -49,6 +49,50 @@
     flex-direction: column;
     gap:5px;
 }
+/*videos*/
+.videos__item{
+    height: 303px;
+    width: 208px;
+   flex-grow: 1;
+}
+.videos__container{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 10px;
+}
+
+.descripcion-video {
+    margin-top: 1rem;
+    display: flex;
+    align-items: start; 
+    
+}
+
+.descripcion-video img {
+    margin-right: 1rem; 
+    flex-shrink: 0;  /*  Evita que la imagen se reduzca */
+    
+}
+
+.detalles__video {
+    flex-direction: column;
+    text-align:left;
+
+}
+
+.detalles__video h3{
+    margin-bottom: 10px;
+}
+/* Rodapie */
+.rodapie__container{
+    display: flex;
+    /* flex-direction: column;
+   flex-wrap: wrap; */
+   flex-flow: column wrap;
+    
+   
+}
+
 @media(min-width:834px){
     .cabecera__buscar__item{
         display: block;/*oculta la barra de busqueda*/
